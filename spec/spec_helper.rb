@@ -1,3 +1,7 @@
+require "factory_girl"
+
+FactoryGirl.find_definitions
+
 require_relative "../ebookmobile"
 
 RSpec.configure do |config|
